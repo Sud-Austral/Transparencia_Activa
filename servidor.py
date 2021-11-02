@@ -19,8 +19,10 @@ def lecturaArchivos():
 
 def fuente():
     fuente = pd.read_excel(r"Descargas_1.xlsx")
+    return fuente
 
 def cargarDatos():
+    fuente = fuente()
     for i in range (len(fuente)):
         dataSinModificacion(fuente["URL"][i],fuente["ruta"][i])
 
