@@ -2,12 +2,6 @@ import pandas as pd
 import time
 import requests
 
-def general():
-    dataSinModificacion(url, ruta)
-    lecturaArchivos()
-    fuente()
-    cargarDatos()
-
 def dataSinModificacion(url, ruta):
     try:
         dfDato = pd.read_csv(url, encoding = "ISO-8859-1", sep = ";")
@@ -32,4 +26,7 @@ def cargarDatos():
 
 
 if __name__ == '__main__':
-    general()
+    dataSinModificacion(url, ruta)
+    lecturaArchivos()
+    fuente()
+    cargarDatos()
