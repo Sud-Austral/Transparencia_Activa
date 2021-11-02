@@ -22,15 +22,14 @@ def fuente():
     return fuente
 
 def cargarDatos():
-    fuente = fuente()
+    referencia = fuente()
 
-    for i in range (len(fuente)):
-        dataSinModificacion(fuente["URL"][i],fuente["ruta"][i])
+    for i in range (len(referencia)):
+        dataSinModificacion(referencia["URL"][i],referencia["ruta"][i])
         print("Archivo actualizado con éxito")
 
 
 if __name__ == '__main__':
-    dataSinModificacion(url = '', ruta = '')
+    #dataSinModificacion(url = '', ruta = '')
     lecturaArchivos()
-    fuente()
     cargarDatos()
