@@ -26,7 +26,7 @@ def cargarDatos():
 
 
 if __name__ == '__main__':
-    dataSinModificacion(url, ruta)
+    dataSinModificacion(url = "", ruta = "")
     lecturaArchivos()
     fuente()
     cargarDatos()
