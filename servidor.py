@@ -3,7 +3,7 @@ import time
 import requests
 
 def general():
-    dataSinModificacion()
+    dataSinModificacion(url, ruta)
     lecturaArchivos()
     fuente()
     cargarDatos()
