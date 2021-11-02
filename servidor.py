@@ -27,8 +27,8 @@ def fuente():
     fuente = pd.read_excel(r"C:\GitHub\Descargas\Descargas_1.xlsx")
 
 def cargarDatos():
-for i in range (len(fuente)):
-    dataSinModificacion(fuente["URL"][i],fuente["ruta"][i])
+    for i in range (len(fuente)):
+        dataSinModificacion(fuente["URL"][i],fuente["ruta"][i])
 
 
 if __name__ == '__main__':
