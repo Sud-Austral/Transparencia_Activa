@@ -1,7 +1,7 @@
 name: TEST GUSTAVO
 
 on:
-    push
+    #push
     # schedule:
       # - cron:  '0 * * * 1-5'
       # “At 00:00 on day-of-month 5 in every month from January through December.” 
