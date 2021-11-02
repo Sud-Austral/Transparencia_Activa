@@ -18,7 +18,7 @@ def lecturaArchivos():
         print ("Código error: "+str(e))
 
 def fuente():
-    fuente = pd.read_excel(r"C:\GitHub\Descargas\Descargas_1.xlsx")
+    fuente = pd.read_excel(r"home/Descargas_1.xlsx")
 
 def cargarDatos():
     for i in range (len(fuente)):
